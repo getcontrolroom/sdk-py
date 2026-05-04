@@ -47,10 +47,14 @@ client = ControlRoomClient(
 Requires [fern](https://buildwithfern.com) and the spec at `../spec/openapi.yaml`.
 
 ```bash
-npm i -g fern-api
+bun add --global fern-api
 cd ../fern && fern generate --local
 ```
 
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+---
+
+Built by [Control Room](https://getcontrolroom.com) · Developed by [Clover Labs](https://cloverlabs.io)
